@@ -1,21 +1,20 @@
-# :film_projector: PROJET MY CINEMA : PHP MySQL HTML CSS 🎬  
+# :film_projector: MY CINEMA : PHP MySQL HTML CSS 🎬  
 
-Ce projet est une site de référencement de films permettant de gérer un cinéma.  
-Il a été développé en utilisant PHP, HTML, CSS et MySQL de manière native. 
+This project is a film directory website that allows for the management of a cinema.
+It was developed using PHP, HTML, CSS and MySQL natively.
 
-
-Pour démarrer le projet :  
-`Mettre le dépôt dans un serveur (apache)`  
+To start the project :  
+`Place the repository on a server (apache)`  
 ```
 link : http://127.0.0.1/MyCinema/index.php
 ```
-`Insérer les données dans une base de données MySQL: `
+`Insert the data into a MySQL database: `
 ```
 CREATE DATABASE cinema;
 USE cinema;
 SOURCE /dossier/cinema.sql; || mysql -u root -p < C:\...\cinema.sql;
 ```
-`Démarrer le serveur et aller a l'adresse de celui-ci (http://127.0.0.1/MyCinema/index.php)`
+`Start the server and go to this address (http://127.0.0.1/MyCinema/index.php)`
 <p align="center">
     <img align="center" src="MyCinema/MyCinema.gif" height="200px" alt="screenshot of the homepage">
 </p>
